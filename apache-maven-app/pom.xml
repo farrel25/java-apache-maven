@@ -16,8 +16,15 @@
     <dependency>
       <groupId>farrel</groupId>
       <artifactId>apache-maven-data</artifactId>
-      <version>${project.version}</version> <!-- version using parent pom -->
-<!--      <scope>compile</scope>-->
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
